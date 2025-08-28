@@ -1,0 +1,16 @@
+{
+  "navbar": {
+    "logo": "Passley",
+    "home": "Accueil",
+    "about": "À propos",
+    "contact": "Contact",
+    "language": "Langue"
+  },
+  "hero": {
+    "title": "Bienvenue chez Passley",
+    "subtitle": "Votre solution sécurisée pour la gestion des mots de passe",
+    "description": "Gérez vos mots de passe en toute sécurité et simplicité avec notre plateforme moderne.",
+    "getStarted": "Commencer",
+    "learnMore": "En savoir plus"
+  }
+}

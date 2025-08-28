@@ -1,0 +1,16 @@
+{
+  "navbar": {
+    "logo": "Passley",
+    "home": "Startseite",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "language": "Sprache"
+  },
+  "hero": {
+    "title": "Willkommen bei Passley",
+    "subtitle": "Ihre sichere Lösung für Passwort-Management",
+    "description": "Verwalten Sie Ihre Passwörter sicher und einfach mit unserer modernen Plattform.",
+    "getStarted": "Jetzt starten",
+    "learnMore": "Mehr erfahren"
+  }
+}

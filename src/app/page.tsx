@@ -1,10 +1,5 @@
-
+import { redirect } from 'next/navigation';
 
 export default function Home() {
-  return (
-  <div>
-  
-  latest push
-  </div>
-  );
+  redirect('/de');
 }
