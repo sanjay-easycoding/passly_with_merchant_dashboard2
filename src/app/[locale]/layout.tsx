@@ -5,15 +5,17 @@ export const metadata: Metadata = {
   description: 'Your secure password management solution',
 };
 
-export default function LocaleLayout({
+export default async function LocaleLayout({
   children,
   params,
 }: {
   children: React.ReactNode;
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 }) {
+  const { locale } = await params;
+  
   return (
-    <div lang={params.locale}>
+    <div lang={locale}>
       {children}
     </div>
   );

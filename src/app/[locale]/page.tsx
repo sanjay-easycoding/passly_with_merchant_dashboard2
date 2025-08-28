@@ -3,13 +3,13 @@ import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 
 interface PageProps {
-  params: {
+  params: Promise<{
     locale: string;
-  };
+  }>;
 }
 
 export default async function LocalePage({ params }: PageProps) {
-  const { locale } = params;
+  const { locale } = await params;
   const translations = await getTranslations(locale);
 
   return (
